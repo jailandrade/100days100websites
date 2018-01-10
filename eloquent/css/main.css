@@ -1,0 +1,40 @@
+.page {
+	background-color: #F7F7F7;
+}
+
+.header {
+	padding: 3em 0;
+}
+
+.title {
+
+}
+
+.nav {
+	margin-left: auto;
+	padding-top: 1em;
+}
+
+.nav a {
+	padding-right: 2.5em;
+	color: black;
+	text-transform: uppercase;
+}
+
+.gallery-item {
+	background: #E6E6E6;
+	padding: 2em;
+	margin: 0.5em;
+	height: 600px;
+	border: 2px solid #fff;
+}
+.store-item {
+	background: #E6E6E6;
+	padding: 2em;
+	margin: 0.5em;
+	height: 300px;
+	border: 2px solid #fff;
+}
+.footer {
+	padding: 2em 0;
+}
