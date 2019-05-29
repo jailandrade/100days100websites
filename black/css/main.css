@@ -1,0 +1,79 @@
+html {
+	box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(35, 37, 42);
+	color: rgb(252, 252, 252);
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.menu a {
+	color: #fff;
+	padding: 1rem;
+}
+
+
+img {
+	max-width: 80%;
+}
+
+
+main {
+	padding: 4rem;
+}
+
+.section {
+	display: flex;
+	margin-bottom: 10rem;
+}
+
+
+.content {
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	line-height: 3.5rem;
+}
+
+.first .content {
+	transform: translateX(6rem);
+}
+
+.content h2 {
+	margin-bottom: 2rem;
+}
+
+.second .content {
+	transform: translateX(-5rem);
+}
+
+
+.forth .thumbnail img{
+	transform: rotate(0.9turn);
+}
+
+.fifth .thumbnail img {
+	transform: skew(10deg, 10deg);
+}
+
+.sixth .content {
+	transform: translateX(5rem);
+}
+
+footer {
+	text-align: center;
+}
