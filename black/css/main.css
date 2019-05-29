@@ -39,14 +39,14 @@ main {
 
 .section {
 	display: flex;
-	margin-bottom: 10rem;
+	margin:5rem 0 10rem;
 }
 
 
 .content {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
-	line-height: 3.5rem;
+	line-height: 2.8rem;
 }
 
 .first .content {
