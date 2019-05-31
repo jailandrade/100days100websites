@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.site-nav a {
+	padding: 0 0.5rem;
+}
+
+header.header {
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main {
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 3rem;
+}
+
+article {
+	padding: 1.25rem 1.5rem;
+	background-color: #fff;
+	border: 1px solid rgb(240, 240, 240);
+	box-shadow: 2px 2px 2px rgb(240, 241, 242);
+	text-align: center;
+}
+
+article header {
+	padding-bottom: 0.75rem;
+}
+
+article footer {
+	padding: 0.75rem 0;
+}
