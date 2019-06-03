@@ -1,0 +1,127 @@
+:root {
+	--yellow: rgb(255, 242, 85);
+	--black: rgb(27, 27, 27);
+	--gray: rgb(230, 230, 241);
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--gray);
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+em {
+	border-bottom: 1rem solid var(--yellow);
+	padding: 0.25rem;
+}
+
+.btn {
+	background-color: var(--yellow);
+	color: var(--black);
+	padding: 0.5rem 1.5rem;
+	width: 8rem;
+	margin-right: 1rem;
+	display: inline-block;
+	text-align: center;
+	border: none;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+}
+
+.header {
+	/* Photo by Studio Republic on Unsplash */
+	background: url('../img/studio-republic-644339-unsplash.jpg') no-repeat scroll;
+	background-size: cover;
+}
+
+.top-header {
+	display: flex;
+	padding: 2rem;
+	justify-content: space-between;
+	background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(20, 21, 22, 0.1));
+}
+
+.header .menu {
+	color: #fff;
+	font-weight: bold;
+}
+
+.header .menu a {
+	margin-right: 1rem;
+	padding: 0.5rem;
+}
+
+.header .title {
+	color: #fff;
+}
+
+
+.hero {
+	padding: 10rem 2rem;
+	font-size: 2.6rem;
+	color: #fff;
+	text-align: right;
+	line-height: 1.7;
+}
+
+.main {
+	display: grid;
+	padding: 8rem 2rem;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 3rem;
+}
+
+article {
+	border: 2px solid var(--gray);
+	box-shadow: 2px 2px 2px var(--gray);
+	padding: 2rem;
+	background-color: #fff;
+}
+
+article header,
+article footer {
+	text-align: center;
+	line-height: 2;
+}
+
+article header {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+article p {
+	line-height: 2;
+}
+
+article footer {
+	margin-top: 5rem;
+}
+
+article a {
+	padding: 0.15rem;
+}
+
+article a:hover {
+	background-color: var(--black);
+	color: var(--yellow);
+}
+
+
