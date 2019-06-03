@@ -71,6 +71,8 @@ article {
 	display:none;
 }
 
+.tab
+
 .tab:target {
 	display: block;
 }
