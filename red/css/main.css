@@ -35,6 +35,11 @@ p {
 	margin-bottom: 0.5rem;
 }
 
+.svg {
+	display: block;
+	margin: 0 auto;
+}
+
 .title {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: var(--red);
@@ -92,16 +97,21 @@ p {
 	margin: 8rem 4rem;
 }
 
-.subscribe input {
+.subscribe .svg {
+	fill: var(--pink);
+	width: 100px;
+}
+
+.form-subscribe input {
 	padding: 1rem;
 	font-size: 1rem;
 }
 
-.subscribe input[type="email"] {
+.form-subscribe input[type="email"] {
 	width: 80%;
 }
 
-.subscribe input[type="submit"] {
+.form-subscribe input[type="submit"] {
 	background-color: var(--wine);
 	border: none;
 	color: #fff;
