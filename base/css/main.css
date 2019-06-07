@@ -8,6 +8,10 @@ html {
 	padding: 0;
 }
 
+:root {
+
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
