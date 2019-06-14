@@ -1,0 +1,110 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--black: #100;
+	--banana-yellow: #ffe135;
+	--awesome: #ff2052;
+	--jade: #00a86b;
+	--ivory: #fffff0;
+}
+
+body {
+	line-height: 1.75;
+	font-size: 1.1rem;
+	background-color: var(--black);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+.container {
+	padding: 2rem;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.svg {
+	display: block;
+}
+
+ul {
+	margin-left: 2rem;
+}
+
+.site-title {
+	text-align: center;
+	margin: 2rem 0;
+	color: var(--banana-yellow);
+	font-size: 4rem;
+	text-shadow: 0.4rem 0.2rem 0.4rem var(--awesome);
+}
+
+.site-main {
+	grid-template-columns: 2fr 5fr;
+	grid-gap: 4rem;
+}
+
+.aside {
+	display: flex;
+	flex-flow: column;
+}
+
+.post {
+	color: var(--black);
+	background-color: var(--ivory);
+	padding: 2rem;
+	margin: 1rem 0;
+	border-bottom-right-radius: 1.5rem;
+	box-shadow: 0.4rem 0.5em 0.4rem var(--jade);
+}
+
+.post-meta {
+	font-size: 0.9rem;
+	margin: 0.5rem 0;
+}
+
+.site-nav {
+	padding: 2rem 0;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 35rem;
+}
+
+.site-nav a {
+	color: var(--awesome);
+	margin: 1rem 0;
+	font-weight: bold;
+	font-size: 0.95rem;
+	letter-spacing: 0.2rem;
+	padding: 0.5rem 0;
+	text-transform: uppercase;
+	border-bottom: 0.1rem solid var(--banana-yellow);
+}
