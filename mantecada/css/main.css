@@ -1,0 +1,100 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--azure-mist:  #f0ffff;
+	--coffee: #6f4e37;
+	--cambridge-blue: #a3c1ad;
+	--white: rgb(255, 255, 255);
+}
+
+body {
+	line-height: 1.75;
+	font-size: 1rem;
+	font-family: 'Lucida Sans', sans-serif;
+	background-color: var(--azure-mist);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+.container {
+	margin: 4rem;
+	padding: 2rem;
+	box-shadow: 0.25rem 0.2rem 0.5rem rgb(230, 230, 230)
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.svg {
+	display: block;
+}
+
+.site-header {
+
+}
+
+.site-header .container {
+	justify-content: space-between;
+	background-color: var(--white);
+}
+
+.site-nav a {
+	margin: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+}
+
+ul {
+	margin-left: 2rem;
+}
+
+
+.section {
+	margin: 2rem 0;
+}
+
+.section .container {
+	background-color: var(--white);
+}
+
+.section-title {
+	text-align: center;
+}
+
+.section-title img {
+	margin-bottom: 2rem;
+}
+
+
+.section-content {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 4rem;
+}
