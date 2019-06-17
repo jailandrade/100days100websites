@@ -1,0 +1,92 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--anti-fash-white: #f2f3f4;
+	--auburn: #a52a2a;
+	--aureolin: #fdee00;
+	--white: rgb(251, 251, 251);
+}
+
+body {
+	line-height: 1.75;
+	font-size: 1rem;
+	font-family: 'Lucida Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	background-color: var(--anti-fash-white);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--aureolin);
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	padding: 4rem;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.svg {
+	display: block;
+}
+
+ul {
+	margin-left: 2rem;
+}
+
+.site-header {
+	background-color: var(--white);
+}
+
+.site-header .container {
+	justify-content: space-between;
+}
+
+.site-nav a {
+	margin: 0.5rem 1rem;
+	padding: 0.5rem;
+	border-radius: 0.1rem;
+}
+
+.site-nav a:hover {
+	background-color: #001;
+}
+
+.section .container {
+	grid-template-columns: 1fr 4fr;
+}
+
+.section-title {
+	color: var(--auburn);
+	font-size: 2rem;
+}
