@@ -1,0 +1,142 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 10px;
+  line-height: 1.85;
+}
+
+h1, h2, h3, h4 { color: #222; }
+
+:root {
+  --awesome: #ff2052;
+  --azure: #007fff;
+  --banana-yellow: #ffe135;
+  --blue-purple: #8a2be2;
+}
+
+.awesome { color: #ff2052; }
+.azure { color: #007fff; }
+.banana-yellow { color: #ffe135; }
+.blue-purple { color: #8a2be2; }
+
+
+body {
+  font-family: serif;
+  background: #fff;
+  font-size: 1.8rem;
+}
+
+a {
+  color: #ff2052;
+}
+
+.site-title {
+  font-weight: bolder;
+}
+
+.site-title:hover {
+  color: #007fff;
+  cursor: pointer;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.site-nav {
+  display: flex;
+}
+.site-nav a {
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  padding: 1rem 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  border-bottom-width: 0.25rem;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+}
+.site-nav a:hover {
+  border-bottom-color: #007fff;
+}
+
+@media (max-width: 800px) {
+  .site-header {
+    padding: 0.25rem;
+  }
+}
+
+.hero {
+  font-size: 2.1rem;
+  padding: 4rem 4rem 8rem;
+  background: url('https://picsum.photos/id/1014/1600/400');
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+.hero {
+  background-color: var(--awesome);
+}
+
+@media (max-width: 800px) {
+  .hero {
+    padding: 2em 2em 5em;
+  }
+}
+
+.columns {
+  color: rgb(35,35,35);
+  padding: 2rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
+}
+
+
+input {
+  padding: 0.75rem 1.5rem;
+  border: none;
+}
+
+.column {
+  border: 0.5rem solid transparent;
+  padding: 1rem;
+}
+
+.column img {
+  max-width: 100%;
+}
+
+.column:hover {
+  box-shadow: 3px 2px 3px rgb(235, 235, 235);
+}
+
+
+.column h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.column p {
+  margin-top: 2rem;
+}
+
+.site-footer {
+  color: rgb(35,35,35);
+  text-align: center;
+  padding: 6rem 4rem;
+}
+
+/*# sourceMappingURL=main.css.map */
