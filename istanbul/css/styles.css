@@ -1,0 +1,75 @@
+/*
+  Reset
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+  Base
+*/
+
+html {
+  box-sizing: inherit;
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: 'Helvetica', arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #614051;
+  padding: 2em;
+  color: #fff;
+}
+
+.header a {
+  margin-right: 1em;
+  color: #fff;
+}
+
+
+.hero {
+  background-color: #f0ead6;
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  background-color: #fffaf0;
+  padding: 5rem 0;
+}
+
+.element {
+
+  color: #222;
+  text-align: center;
+}
+
+.footer {
+  background-color: #614051;
+  padding: 2em;
+  text-align: center;
+  color: #f0ead6;
+}
+
+.footer a {
+  color: #fff;
+}
