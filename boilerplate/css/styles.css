@@ -1,0 +1,28 @@
+/*
+  Reset
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+  Base
+*/
+
+html {
+  box-sizing: inherit;
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: 'Helvetica', arial, sans-serif;
+}
+
+.page {}
