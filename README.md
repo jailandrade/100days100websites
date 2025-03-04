@@ -10,7 +10,8 @@ The rules are simple:
 * Share on social networks
 * Repeat ~~the first 3 steps for 100 days~~
 
-
 ## Disclaimer
 
-I stop the challenge on June 21, I have modified the rules to work without presure. But I will complete my 100 websites.
+I stop the challenge on June 21, 2019 ~~I have modified the rules to work without presure. But I will complete my 100 websites.~~
+
+I resume the challenge on March 4, 2025
