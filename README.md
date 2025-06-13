@@ -15,3 +15,7 @@ The rules are simple:
 I stop the challenge on June 21, 2019 I have modified the rules to work without presure. But I will complete my 100 websites.
 
 I resume the challenge on **April 15, 2025**
+
+## New Disclaimer
+
+I'm moving and recreating this repo [here](https://codeberg.org/jailandrade/100days100websites)
